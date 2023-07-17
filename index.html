@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#formacao-educacional">Formação Educacional</a></li>
+                <li><a href="#linkedin-github">Meus Portifólios</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mim">
+            <h2>Sobre mim: </h2>
+            <p>Me chamo João Victor, tenho 23 anos, casado. Moro em Piracicaba-SP. Trabalho atualmente como técnico em eletrônica em um hospital em minha cidade, no setor de engenharia clínica, cuidando dos equipamentos médicos.
+                <br> Estudo Engenharia de Software de grau superior e tenho formações técnicas em Administração e Eletroeletrônica. 
+            </p>
+        </section>
+
+        <section id="formacao-educacional">
+            <h2>Formação Educacional</h2>
+            <p>
+                Ensino Superior: Graduação em Engenharia de Software 
+                Instituição: Universidade Internacional (UNINTER)
+                Início em Dez/2021 e término previsto em Nov/2025 <br>
+                
+                Curso de Aprendizagem Industrial: Mecânica de Manutenção – Concluído 
+                Escola Técnica: SENAI, Paulínia – SP
+                Início em Out/2018 e término em Fev/2020 <br>
+                        
+                Especificação Técnica: Eletroeletrônica – Concluído
+                Escola Técnica: ETEC – Trajano Camargo – Centro Paula Souza, Limeira – SP 
+                Início em Fev/2018 e término em Dez/2019 <br>
+                
+                Especificação Técnica: Administração – Concluído
+                     Escola Técnica: ETEC – Trajano Camargo - Centro Paula Souza, Limeira - SP  
+                     Início em Jul/2016 e término em Dez/2017 
+                .</p>
+        </section>
+
+        <section id="linkedin-github">
+            <h2>Meus Portifólios</h2>
+            <p>Acesse aqui:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-xavier-da-silva-a56a5618a/" target="_blank">Linkedin</a></li>
+                <li><a href="https://github.com/JoaoVictorXS" target="_blank">Github</a></li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="enviar_contato.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados &copy; 2023</p>
+    </footer>
+</body>
+</html>
